@@ -21,3 +21,4 @@ pipeline {
                       }
                      }
                     }
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/naveensonu/jenkinstask6.git/'], pipelineTriggers([gitpush()])])
