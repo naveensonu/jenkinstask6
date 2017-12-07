@@ -1,3 +1,6 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/naveensonu/jenkinstask6.git/'], pipelineTriggers([githubPush()])])
+
+
 pipeline {
     agent any
     stages {
